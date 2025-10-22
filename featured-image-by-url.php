@@ -32,6 +32,16 @@ class Featured_Image_By_URL{
 	 */
 	private static $instance;
 
+	/**
+	 * @var Featured_Image_By_URL_Common
+	 */
+	public $common;
+
+	/**
+	 * @var Featured_Image_By_URL_Admin
+	 */
+	public $admin;
+
     /**
      * Main Featured Image by URL Instance.
      * 
